@@ -27,6 +27,6 @@ struct DetailProduct {
     let category: String?
     /// Imagen del producto.
     let thumbnail: String?
-    
+    /// Bandera que indica si se muestra un label.
     let isDiscount: Bool?
 }

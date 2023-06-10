@@ -54,7 +54,7 @@ protocol HomeProductsPresenterOutputProtocol: AnyObject {
     // INTERACTOR -> PRESENTER
     func bringProducts(products: [Result])
 }
-/// Protocolo que define los métodos y atributos para el routing de ProductDetail.
+/// Protocolo que define los métodos y atributos para el routing de HomeProducts.
 protocol HomeProductsRouterProtocol: AnyObject {
     // PRESENTER -> ROUTING
     /// Objeto de tipo **MainProductsViewController**

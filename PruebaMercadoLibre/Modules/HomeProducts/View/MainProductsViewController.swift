@@ -21,10 +21,6 @@ final class MainProductsViewController: BaseViewController {
     private var textFieldSearch = UISearchBar()
     /// Botón de carrito de compas.
     private var buttomCar = UIButton()
-    
-    private var imageAdress = UIImageView()
-    
-    private var labelAddress = UILabel()
     ///  UIActivityIndicatorView que indica el progreso de carga al usuario.
     private var loaderView = UIActivityIndicatorView()
     /// Referencia al presenter.
